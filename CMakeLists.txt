@@ -113,8 +113,6 @@ set(${PROJECT_NAME}_SOURCE_FILES
 # ! Add include path here
 # )
 
-include(cmake/create_documents.cmake)
-
 # target_link_libraries(${PROJECT_NAME} PRIVATE
 
 # ! Add libraries here
