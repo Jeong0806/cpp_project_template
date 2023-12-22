@@ -15,7 +15,7 @@ function(add_test_executable EXECUTABLE_NAME SOURCE_FILES)
     main.cpp
   )
   target_link_libraries(${EXECUTABLE_NAME} PRIVATE
-    ${GTEST_LIBRARIES}
+    ${GTest_LIBRARIES}
     ${PROJECT_NAME}
   )
 
